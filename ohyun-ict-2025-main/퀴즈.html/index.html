@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Color</title>
+    <style>
+        #item {
+            width: 100px;
+            height: 100px;
+            padding: 200px 240px 24px;
+            background-color: aqua;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="item"></div>
+
+    <script>
+        const item = document.querySelector("#item");
+        let isBlack = false;
+
+        item.addEventListener("click", (e) => {
+            isBlack = !isBlack;
+            e.target.style.backgroundColor = isBlack ? "#0f0f0f" : "aqua";
+        });
+    </script>
+</body>
+</html>
