@@ -1,0 +1,24 @@
+    .small{
+        color: #e8e8e8;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .cafe-name{
+        padding-right: 6px;
+        display: inline;
+    }
+    .container{
+        border: solid 1px #e0e0e0;
+        border-radius: 12px;
+        width: 602px;
+        padding: 20px 24px 8px;
+        margin : auto;
+    }
+    .photo{
+        width: 272px;
+        border-radius: 12px;
+    }
+    .time{
+        color: #e8e8e8;
+        font-weight: 400;
+    }
