@@ -4,14 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>여기는 게시판이다</h1>
-    <form id="post-form">
-        <input type="text" name="title" id="title">
-        <input type="text" name="content" id="content">
-        <button>제출</button>
-    </form>
+    <div id = container>
+        <div>
+        <h1>여기는 게시판이다</h1>
+        <ul id="board"></ul>
+        <button id = "button">버튼</button>
+        <form id="post-form">
+            <input type="text" name="title" id="title">
+            <br>
+            <textarea name="content" id="content"></textarea>
+            
+            <button>제출</button>
+            
+        
+        </form>
+    </div>
+
 </body>
-<script src="./app.js"></script>
+<script src="./app.js">
+
+</script>
 </html>

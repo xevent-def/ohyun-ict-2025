@@ -1,0 +1,11 @@
+#post-form{
+    display : "none"
+}
+.container{
+    border: solid 1px #e0e0e0;
+    border-radius: 12px;
+    width: 602px;
+    padding: 20px 24px 8px;
+    margin : auto;
+}
+    
